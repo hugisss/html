@@ -1,0 +1,118 @@
+/* Základní styly a tmavý vesmírný design */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0b0f19;
+    color: #e2e8f0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #1e1b4b, #311042);
+    color: white;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    border-bottom: 2px solid #4f46e5;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    color: #a5b4fc;
+}
+
+/* Navigace (Menu) */
+nav {
+    background-color: #111827;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+    color: #93c5fd;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover, nav a.active {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Hlavní obsah */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background-color: #1f2937;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    color: #60a5fa;
+    margin-top: 0;
+}
+
+/* Obrázky */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+/* Formulář */
+input, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #374151;
+    border-radius: 4px;
+    background-color: #111827;
+    color: white;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #4338ca;
+}
+
+/* Patička */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #111827;
+    color: #9ca3af;
+    border-top: 1px solid #374151;
+    margin-top: 3rem;
+}
